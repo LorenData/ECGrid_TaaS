@@ -1,0 +1,55 @@
+<html xmlns:py="http://genshi.edgewall.org/" py:strip="True">
+
+<div>
+    <h1>EDI Order</h1>
+     <table>
+        <tbody>
+            <tr py:if="'ORDERNUMBER' in data.header"><td>Order Number:</td><td>${data.header['ORDERNUMBER']}</td></tr>    
+            <tr py:if="'SENDER' in data.header"><td>Sender:</td><td>${data.header['SENDER']}</td></tr>    
+            <tr py:if="'RECEIVER' in data.header"><td>Receiver:</td><td>${data.header['RECEIVER']}</td></tr>    
+            <tr py:if="'TEST' in data.header and data.header['TEST']"><td>Test:</td><td>${data.header['TEST']}</td></tr>    
+            <tr py:if="'ORDERTYPE' in data.header"><td>Order Type:</td><td>${data.header['ORDERTYPE']}</td></tr>    
+            <tr py:if="'ORDERDATE' in data.header"><td>Order Date:</td><td>${data.header['ORDERDATE']}</td></tr>    
+            <tr py:if="'EANAFNEMER' in data.header"><td>Customer:</td><td>${data.header['CUSTOMER']}</td></tr>    
+            <tr py:if="'SUPPLIER' in data.header"><td>Supplier:</td><td>${data.header['SUPPLIER']}</td></tr>    
+            <tr py:if="'DELIVERYADDR' in data.header and data.header['DELIVERYADDR']"><td>Delivery Address:</td><td>${data.header['DELIVERYADDR']}</td></tr>    
+            <tr py:if="'COLLECTIONADDR' in data.header and data.header['COLLECTIONADDR']"><td>Collection Address:</td><td>${data.header['COLLECTIONADDR']}</td></tr>    
+            <tr py:if="'FINALDEST' in data.header and data.header['FINALDEST']"><td>Final Destination:</td><td>${data.header['FINALDEST']}</td></tr>    
+            <tr py:if="'DELIVERYDATE' in data.header and data.header['DELIVERYDATE']"><td>Delivery Date:</td><td>${data.header['DELIVERYDATE']}</td></tr>    
+            <tr py:if="'EARLIESTDELIVERYDATE' in data.header and data.header['EARLIESTDELIVERYDATE']"><td>Earliest Delivery Date:</td><td>${data.header['EARLIESTDELIVERYDATE']}</td></tr>    
+            <tr py:if="'LASTDELIVERYDATE' in data.header and data.header['LASTDELIVERYDATE']"><td>Last Delivery Date:</td><td>${data.header['LASTDELIVERYDATE']}</td></tr>    
+            <tr py:if="'DUTYFREE' in data.header and data.header['DUTYFREE']"><td>Duty Free:</td><td>${data.header['DUTYFREE']}</td></tr>    
+            <tr py:if="'IMPROVISED' in data.header and data.header['IMPROVISED']"><td>Improvised:</td><td>${data.header['IMPROVISED']}</td></tr>    
+            <tr py:if="'INDICATIONRECEPTIONCONFIRMATION' in data.header and data.header['INDICATIONRECEPTIONCONFIRMATION']"><td>Confirmation:</td><td>${data.header['INDICATIONRECEPTIONCONFIRMATION']}</td></tr>    
+            <tr py:if="'BACKHAULING' in data.header and data.header['BACKHAULING']"><td>BAck Hauling:</td><td>${data.header['BACKHAULING']}</td></tr>    
+            <tr py:if="'URGENTORDER' in data.header and data.header['URGENTORDER']"><td>Urgent Order:</td><td>${data.header['URGENTORDER']}</td></tr>    
+            <tr py:if="'SHOPINSTALLATION' in data.header and data.header['SHOPINSTALLATION']"><td>Shop Installation:</td><td>${data.header['SHOPINSTALLATION']}</td></tr>    
+            <tr py:if="'WINDOWORDERNUMBER' in data.header and data.header['WINDOWORDERNUMBER']"><td>Window Order Number:</td><td>${data.header['WINDOWORDERNUMBER']}</td></tr>    
+            <tr py:if="'ACTIONNUMBER' in data.header and data.header['ACTIONNUMBER']"><td>Action Number:</td><td>${data.header['ACTIONNUMBER']}</td></tr>    
+        </tbody>
+    </table>
+    <br/>
+    <br/>
+     <table class="lines">
+        <thead>
+            <td>Line</td>
+            <td>Item</td>
+            <td>Quantity</td>
+            <td>Promo Code</td>
+            <td>Description</td>
+        </thead>
+        <tbody py:for="line in data.lines">
+            <tr>
+                <td py:if="'LINE' in line">${line['LINE']}</td>
+                <td py:if="'ITEM' in line">${line['ITEM']}</td>
+                <td py:if="'QUANTITY' in line">${line['QUANTITY']}</td>
+                <td py:if="'PROMOCODE' in line">${line['PROMOCODE']}</td>
+                <td py:if="'DESCRIPTION' in line">${line['DESCRIPTION']}</td>
+            </tr>
+        </tbody>
+    </table>
+    <br/>
+
+<small><u>Loren Data</u></small>
+</div>
+</html>

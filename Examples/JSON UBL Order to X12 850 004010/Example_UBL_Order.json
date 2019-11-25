@@ -1,0 +1,642 @@
+[{
+
+    "_D": "urn:oasis:names:specification:ubl:schema:xsd:Order-2",
+    "_S": "urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2",
+    "_B": "urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2",
+    "_E": "urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2",
+    "Order": [
+      {
+        "UBLVersionID": [
+          {
+            "IdentifierContent": "2.1"
+          }
+        ],
+        "CustomizationID": [
+          {
+            "IdentifierContent": "LDC"
+          }
+        ],
+        "ProfileID": [
+          {
+            "IdentifierContent": "Basic-v1.0",
+            "IdentificationSchemeAgencyIdentifier": "LDC",
+            "IdentificationSchemeIdentifier": "Profile"
+          }
+        ],
+        "ProfileExecutionID": [
+          {
+            "IdentifierContent": "Basic-Order"
+          }
+        ],
+        "UBLExtensions": [
+          {
+            "UBLExtension": [
+              {
+                "Name": [
+                  {
+                    "TextContent": "Loren Data Transport"
+                  }
+                ],
+                "ExtensionReason": [
+                  {
+                    "TextContent": "Aggregate extension component containing information for the Loren Data transport values."
+                  }
+                ],
+                "ExtensionContent": [
+                  {
+                    "LorenDataTransport": [
+                      {
+                        "ParcelID": [
+                          {
+                            "IdentifierContent": ""
+                          }
+                        ],
+                        "NetworkIDFrom": [
+                          {
+                            "IdentifierContent": "",
+                            "IdentificationSchemeNameText": ""
+                          }
+                        ],
+                        "NetworkIDTo": [
+                          {
+                            "IdentifierContent": "",
+                            "IdentificationSchemeNameText": ""
+                          }
+                        ],
+                        "MailboxIDFrom": [
+                          {
+                            "IdentifierContent": "",
+                            "IdentificationSchemeNameText": ""
+                          }
+                        ],
+                        "MailboxIDTo": [
+                          {
+                            "IdentifierContent": "",
+                            "IdentificationSchemeNameText": ""
+                          }
+                        ],
+                        "ECGridIDFrom": [
+                          {
+                            "IdentifierContent": "",
+                            "IdentificationSchemeNameText": ""
+                          }
+                        ],
+                        "ECGridIDTo": [
+                          {
+                            "IdentifierContent": "",
+                            "IdentificationSchemeNameText": ""
+                          }
+                        ],
+                        "ElectronicMailFrom": [
+                          {
+                            "TextContent": ""
+                          }
+                        ],
+                        "ElectronicMailTo": [
+                          {
+                            "TextContent": ""
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Name": [
+                  {
+                    "TextContent": "Document Envelope"
+                  }
+                ],
+                "ExtensionReason": [
+                  {
+                    "TextContent": "Aggregate extention component containing information for the document envelope used for translation."
+                  }
+                ],
+                "ExtensionContent": [
+                  {
+                    "DocumentEnvelope": [
+                      {
+                        "ID": [
+                          {
+                            "IdentifierContent": "1",
+                            "IdentificationSchemeNameText": "ISA"
+                          }
+                        ],
+                        "CopyIndicator": [
+                          {
+                            "IdentifierContent": "P"
+                          }
+                        ],
+                        "UUID": [
+                          {
+                            "IdentifierContent": ""
+                          }
+                        ],
+                        "SenderParty": [
+                          {
+                            "PartyIdentification": [
+                              {
+                                "ID": [
+                                  {
+                                    "IdentifierContent": "TESTPARTNER1",
+                                    "IdentificationSchemeNameText": "ZZ"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "ReceiverParty": [
+                          {
+                            "PartyIdentification": [
+                              {
+                                "ID": [
+                                  {
+                                    "IdentifierContent": "TESTPARTNER2",
+                                    "IdentificationSchemeNameText": "ZZ"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "IssueDate": [
+                          {
+                            "DateContent": "2019-05-02"
+                          }
+                        ],
+                        "IssueTime": [
+                          {
+                            "TimeContent": "08:50"
+                          }
+                        ],
+                        "SpecificationID": [
+                          {
+                            "IdentifierContent": "1",
+                            "IdentificationSchemeNameText": "GS"
+                          }
+                        ],
+                        "AgencyID": [
+                          {
+                            "IdentifierContent": "X"
+                          }
+                        ],
+                        "VersionID": [
+                          {
+                            "IdentifierContent": "004010"
+                          }
+                        ],
+                        "DocumentType": [
+                          {
+                            "TextContent": "850"
+                          }
+                        ],
+                        "SequenceNumberID": [
+                          {
+                            "IdentifierContent": "0001",
+                            "IdentificationSchemeNameText": "ST"
+                          }
+                        ],
+                        "Status": [
+                          {
+                            "TextConent": [
+                              {
+                                "TextContent": "New"
+                              }
+                            ],
+                            "ReferenceDate": [
+                              {
+                                "DateContent": "2019-07-22"
+                              }
+                            ],
+                            "ReferenceTime": [
+                              {
+                                "TimeContent": "21:50:00"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "PurposeCode": [
+          {
+            "CodeContent": "00",
+            "CodeNameText": "Original"
+          }
+        ],
+        "OrderTypeCode": [
+          {
+            "CodeContent": "DS",
+            "CodeNameText": "Dropship"
+          }
+        ],
+        "ID": [
+          {
+            "IdentifierContent": "1234567890"
+          }
+        ],
+        "IssueDate": [
+          {
+            "DateContent": "08/01/2009"
+          }
+        ],
+        "Contract": [
+          {
+            "ID": [
+              {
+                "IdentifierContent": "9859"
+              }
+            ]
+          }
+        ],
+        "Delivery": [
+          {
+            "RequestedDeliveryPeriod": [
+              {
+                "StartDate": [
+                  {
+                    "DateContent": "11/06/2010"
+                  }
+                ],
+                "DescriptionCode": [
+                  {
+                    "CodeContent": "017",
+                    "CodeNameText": "Estimated Delivery Date"
+                  }
+                ]
+              }
+            ],
+            "CarrierParty": [
+              {
+                "PartyIdentification": [
+                  {
+                    "ID": [
+                      {
+                        "IdentifierContent": "UPSG"
+                      }
+                    ]
+                  }
+                ],
+                "PartyName": [
+                  {
+                    "Name": [
+                      {
+                        "TextContent": "UPS Ground"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "DeliveryAddress": [
+              {
+                "ID": [
+                  {
+                    "IdentificationSchemeIdentifier": "ST"
+                  }
+                ],
+                "BuildingName": [
+                  {
+                    "TextContent": "Jane Doe"
+                  }
+                ],
+                "StreetName": [
+                  {
+                    "TextContent": "123 Some Street"
+                  }
+                ],
+                "AdditionalStreetName": [
+                  {
+                    "TextContent": "Apt 1"
+                  }
+                ],
+                "CityName": [
+                  {
+                    "TextContent": "Anyplace"
+                  }
+                ],
+                "PostalZone": [
+                  {
+                    "TextContent": "55555"
+                  }
+                ],
+                "CountrySubentity": [
+                  {
+                    "TextContent": "MN"
+                  }
+                ],
+                "Country": [
+                  {
+                    "IdentificationCode": [
+                      {
+                        "CodeContent": "US"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "BuyerCustomerParty": [
+          {
+            "Party": [
+              {
+                "PartyIdentification": [
+                  {
+                    "IdentificationSchemeIdentifier": "BT"
+                  }
+                ],
+                "PartyName": [
+                  {
+                    "Name": [
+                      {
+                        "TextContent": "Target.com Accounts Payable"
+                      }
+                    ]
+                  }
+                ],
+                "PostalAddress": [
+                  {
+                    "StreetName": [
+                      {
+                        "TextContent": "TNC 3110"
+                      }
+                    ],
+                    "AdditionalStreetName": [
+                      {
+                        "TextContent": "PO Box 9493"
+                      }
+                    ],
+                    "CityName": [
+                      {
+                        "TextContent": "Minneapolis"
+                      }
+                    ],
+                    "PostalZone": [
+                      {
+                        "TextContent": "55440"
+                      }
+                    ],
+                    "CountrySubentity": [
+                      {
+                        "TextContent": "MN"
+                      }
+                    ],
+                    "Country": [
+                      {
+                        "IdentificationCode": [
+                          {
+                            "CodeContent": "US"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "OrderLine": [
+          {
+            "LineItem": [
+              {
+                "ID": [
+                  {
+                    "IdentifierContent": "1"
+                  }
+                ],
+                "Quantity": [
+                  {
+                    "QuantityContent": "1",
+                    "QuantityUnitCode": "EA"
+                  }
+                ],
+                "Price": [
+                  {
+                    "PriceAmount": [
+                      {
+                        "AmountContent": "19.45"
+                      }
+                    ],
+                    "PriceTypeCode": [
+                      {
+                        "CodeContent": "PU",
+                        "CodeNameText": "Specified Unit"
+                      }
+                    ]
+                  }
+                ],
+                "LineExtensionAmount": [
+                  {
+                    "AmountContent": "19.45"
+                  }
+                ],
+                "Item": [
+                  {
+                    "BuyersItemIdentification": [
+                      {
+                        "ID": [
+                          {
+                            "IdentifierContent": "123456",
+                            "IdentificationSchemeIdentifier": ""
+                          }
+                        ]
+                      }
+                    ],
+                    "SellersItemIdentification": [
+                      {
+                        "ID": [
+                          {
+                            "IdentifierContent": "123-12-1234"
+                          }
+                        ]
+                      }
+                    ],
+                    "StandardItemIdentification": [
+                      {
+                        "ID": [
+                          {
+                            "IdentifierContent": "102398765423",
+                            "IdentificationSchemeIdentifier": "UPC"
+                          }
+                        ]
+                      }
+                    ],
+                    "Description": [
+                      {
+                        "TextContent": "Description"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LineItem": [
+              {
+                "ID": [
+                  {
+                    "IdentifierContent": "2"
+                  }
+                ],
+                "Quantity": [
+                  {
+                    "QuantityContent": "5",
+                    "QuantityUnitCode": "EA"
+                  }
+                ],
+                "Price": [
+                  {
+                    "PriceAmount": [
+                      {
+                        "AmountContent": "12.35"
+                      }
+                    ],
+                    "PriceTypeCode": [
+                      {
+                        "CodeContent": "PU",
+                        "CodeNameText": "Specified Unit"
+                      }
+                    ]
+                  }
+                ],
+                "LineExtensionAmount": [
+                  {
+                    "AmountContent": "61.75"
+                  }
+                ],
+                "Item": [
+                  {
+                    "BuyersItemIdentification": [
+                      {
+                        "ID": [
+                          {
+                            "IdentifierContent": "1245656",
+                            "IdentificationSchemeIdentifier": ""
+                          }
+                        ]
+                      }
+                    ],
+                    "SellersItemIdentification": [
+                      {
+                        "ID": [
+                          {
+                            "IdentifierContent": "123-122-14"
+                          }
+                        ]
+                      }
+                    ],
+                    "StandardItemIdentification": [
+                      {
+                        "ID": [
+                          {
+                            "IdentifierContent": "102398765443",
+                            "IdentificationSchemeIdentifier": "UPC"
+                          }
+                        ]
+                      }
+                    ],
+                    "Description": [
+                      {
+                        "TextContent": "Description 2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "LineItem": [
+              {
+                "ID": [
+                  {
+                    "IdentifierContent": "3"
+                  }
+                ],
+                "Quantity": [
+                  {
+                    "QuantityContent": "5",
+                    "QuantityUnitCode": "EA"
+                  }
+                ],
+                "Price": [
+                  {
+                    "PriceAmount": [
+                      {
+                        "AmountContent": "2.35"
+                      }
+                    ],
+                    "PriceTypeCode": [
+                      {
+                        "CodeContent": "PU",
+                        "CodeNameText": "Specified Unit"
+                      }
+                    ]
+                  }
+                ],
+                "LineExtensionAmount": [
+                  {
+                    "AmountContent": "11.75"
+                  }
+                ],
+                "Item": [
+                  {
+                    "BuyersItemIdentification": [
+                      {
+                        "ID": [
+                          {
+                            "IdentifierContent": "124567856",
+                            "IdentificationSchemeIdentifier": ""
+                          }
+                        ]
+                      }
+                    ],
+                    "SellersItemIdentification": [
+                      {
+                        "ID": [
+                          {
+                            "IdentifierContent": "122-14"
+                          }
+                        ]
+                      }
+                    ],
+                    "StandardItemIdentification": [
+                      {
+                        "ID": [
+                          {
+                            "IdentifierContent": "102398775443",
+                            "IdentificationSchemeIdentifier": "UPC"
+                          }
+                        ]
+                      }
+                    ],
+                    "Description": [
+                      {
+                        "TextContent": "Description 3"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "LineCountNumeric": [
+          {
+            "NumericContent": "1"
+          }
+        ]
+      }
+    ]
+}]

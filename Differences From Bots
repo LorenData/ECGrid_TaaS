@@ -2,10 +2,20 @@ We added an ISA/GS control number override directly from the translation map ins
 In case you want to track and manage your control numbers in an external system. 
 Set out.ta_info['control_number_override'] in your map and it will use that number as the ISA/UNH/Etc. as the control number and 
 not the one from the control number record associated with your company/partner.
+
 There is no persisting of data outside the conversion codes and partner records. (BOTS standard Persist functions have been removed.)
 
-All other normal Bots transform functions are available - ccode, reverse-ccode, getcodeset, all the calc checks plus a checkDigitMOD10 function for sscc18 labels, strftime, useoneof, dataformat, datemask, truncate, concat, partnerlookup, partnerreturn, ccodereturn, and of course get/put/loops.
-Grammars and Maps are in the main usersys folders, the partner folders are not used. All maps are identified by the ID in the request and not the auto identify process that BOTS standard uses. We allow for very long names not the restricted 30 character BOTS uses. So Please just name your map like this: partner_name_850_004010_to_Company_A_Csv_format or something like it. There are also additional fields for better searching of maps and grammars, like company name, version, document, etc.
+All other normal Bots transform functions are available - ccode, reverse-ccode, getcodeset, all the calc checks plus a 
+checkDigitMOD10 function for sscc18 labels, strftime, useoneof, dataformat, datemask, truncate, concat, partnerlookup, 
+partnerreturn, ccodereturn, and of course get/put/loops.
+
+Grammars and Maps are in the main usersys folders, the partner folders are not used. 
+
+All maps are identified by the ID in the request and not the auto identify process that BOTS standard uses. 
+
+We allow for very long names not the restricted 30 character BOTS uses. 
+So Please just name your map like this: partner_name_850_004010_to_Company_A_Csv_format or something like it. 
+There are also additional fields for better searching of maps and grammars, like company name, version, document, etc.
 
 Python standard libraries can be used in grammars and maps, please use full paths for BOTS libraries.
 
@@ -13,7 +23,10 @@ import bots.transform as transform
 not 
 import transform
 
-We have also added these additional libraries for use in the mappings. If you need another, please let us know and we will research/test and add it for you if there are not conflicts or security risks to our system.
+We have also added these additional libraries for use in the mappings. 
+If you need another, please let us know and we will research/test and add it for you if there are not conflicts or security risks 
+to our system.
+
 (Requests or api calls to external systems to get data)
 requests == 2.22.0
 beautifulsoup4 == 4.8.0
@@ -26,7 +39,6 @@ fpdf == 1.7.2
 
 (barcode creation)
 python-barcode == 0.10.0
-
 
 (images)
 Pillow == 6.1.0

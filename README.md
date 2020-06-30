@@ -5,6 +5,9 @@ TaaS makes use of the [Bots Open Source EDI Translator Engine](https://github.co
 An any-to-any converter for your data with many common formats like X12, EDIFACT, TRADACOMS, JSON, XML, Fixed/Positional, Delimited/CSV, PDF, Excel, Word, IDoc, and HTML.
 There are built in functions for code conversion lookup, stored partner information, and barcode creation.
 
+## Learn More
+* Check out the [https://github.com/LorenData/ECGrid_TaaS/wiki](Github Wiki) to learn more.
+
 ## Getting Started
 * Got to [https://taas.ecgrid.io](taas.ecgrid.io)
 * Register for an account and get your api-key.
@@ -19,7 +22,7 @@ There are built in functions for code conversion lookup, stored partner informat
 ## Resources and Links
 API: [https://taas.ecgrid.io/](https://taas.ecgrid.io/)
 
-Documentation: [https://taas.ecgrid.io/api/v1/docs/](https://taas.ecgrid.io/api/v1/docs/)
+API Call Documentation: [https://taas.ecgrid.io/api/v1/docs/](https://taas.ecgrid.io/api/v1/docs/)
 
 Bots EDI Translator: [https://github.com/eppye-bots/bots](https://github.com/eppye-bots/bots)
 

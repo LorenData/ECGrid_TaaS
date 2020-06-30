@@ -6,7 +6,7 @@ An any-to-any converter for your data with many common formats like X12, EDIFACT
 There are built in functions for code conversion lookup, stored partner information, and barcode creation.
 
 ## Learn More
-* Check out the [https://github.com/LorenData/ECGrid_TaaS/wiki/] (Github Wiki) to learn more.
+* Check out the [Github Wiki](https://github.com/LorenData/ECGrid_TaaS/wiki/) to learn more.
 
 ## Getting Started
 * Got to [https://taas.ecgrid.io](taas.ecgrid.io)

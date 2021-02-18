@@ -1,5 +1,5 @@
 # ECGrid_TaaS
-Loren Data's ECGridOS Transformation-as-a-Service (TaaS) is a web services API that provides functions for translating or converting data from one format to another. 
+Loren Data's ECGridOS Transformation-as-a-Service (TaaS) is a web services REST API that provides functionality for translating or converting data from one format to another. 
 
 TaaS makes use of the [Bots Open Source EDI Translator Engine](https://github.com/eppye-bots/bots) created by [Henk-Jan Ebbers](http://bots.sourceforge.net/en/index.shtml). 
 An any-to-any converter for your data with many common formats like X12, EDIFACT, TRADACOMS, JSON, XML, Fixed/Positional, Delimited/CSV, PDF, Excel, Word, IDoc, and HTML.
@@ -25,6 +25,8 @@ API: [https://taas.ecgrid.io/](https://taas.ecgrid.io/)
 API Call Documentation: [https://taas.ecgrid.io/api/v1/docs/](https://taas.ecgrid.io/api/v1/docs/)
 
 Bots EDI Translator: [https://github.com/eppye-bots/bots](https://github.com/eppye-bots/bots)
+
+FAQ's:
 
 # Other Loren Data Services
 

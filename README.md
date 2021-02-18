@@ -8,7 +8,7 @@ There are built in functions for code conversion lookup, stored partner informat
 ## Learn More
 * Check out the [Github Wiki](https://github.com/LorenData/ECGrid_TaaS/wiki/) to learn more.
 
-## Getting Started
+## How to Setup ECGRID_TaaS
 * Got to [https://taas.ecgrid.io](taas.ecgrid.io)
 * Register for an account and get your api-key.
 * Review the [API documentation](https://taas.ecgrid.io/api/v1/docs/).

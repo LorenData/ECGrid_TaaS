@@ -37,4 +37,4 @@ URL: [https://github.com/LorenData/ECGridOS_API](https://github.com/LorenData/EC
 
 ## Unified AS2
 
-Managed AS2 Unified with VAN Messaging – Built with the ECGridOS API.  Programmable AS2 for building a community of trading partners. This is AS2 built for operators at scale.
+ECgrid has a programmable set of API's for implementing AS2 for building a community of trading partners. This is AS2 built for operators, software houses, ISV's or organizations looking to move from on-premise software to a reliable SaaS solution for B2B communications.

@@ -32,9 +32,9 @@ FAQ's:
 
 ## ECGridOS
 
-ECGridOS is a web services API that provides over 200 functions for direct access to account creation, user ID and mailbox management, user sessions, network management (interconnections to other ID’s on Value Added Networks), real time message status, and much more. If seamless, integrated trading partner management is your goal, ECGridOS is market-proven – providing programmable EDI network management for numerous B2B providers, software OEMs, and B2B SAAS ventures.
+ECGrid's open API library provides support for over 200 functions for direct access to account creation, user ID and mailbox management, user sessions, network management (interconnections to other ID’s on Value Added Networks), real time message status, and much more. If seamless, integrated trading partner management is your goal, ECGridOS is market-proven – providing programmable EDI network management for numerous B2B providers, software OEMs, and B2B SAAS ventures.
 URL: [https://github.com/LorenData/ECGridOS_API](https://github.com/LorenData/ECGridOS_API)
 
 ## Unified AS2
 
-ECgrid has a programmable set of API's for implementing AS2 for building a community of trading partners. This is AS2 built for operators, software houses, ISV's or organizations looking to move from on-premise software to a reliable SaaS solution for B2B communications.
+ECGrid has a programmable set of API's for implementing AS2 for building a community of trading partners. This is AS2 built for operators, software houses, ISV's or organizations looking to move from on-premise software to a reliable SaaS solution for B2B communications.
